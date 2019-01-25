@@ -1,6 +1,6 @@
 {
-	"name": "summerblue/administrator",
-	"description": "A database interface package for Laravel, modified!",
+	"name": "bmslaravel/administrator",
+	"description": "A database interface package for Laravel, modified! fork from 'summerblue/administrator'. only me use Thanks",
 	"homepage": "https://github.com/summerblue/administrator",
 	"keywords": ["administrator", "admin", "database", "laravel-administrator", "laravel", "cms"],
 	"license": "MIT",
