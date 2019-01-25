@@ -57,4 +57,7 @@ return array(
     'not_eloquent'             => ' is not an Eloquent model',
     'storage_path_permissions' => 'You must make your storage path writable in order to make a settings page',
     'valid_home_page'          => 'You must provide a valid menu item in the home_page option of your config',
+
+    'title_setting'            => "Site Settings",
+    'other_setting'            => "Other Operations",
 );

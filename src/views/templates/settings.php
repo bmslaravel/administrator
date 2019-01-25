@@ -5,7 +5,7 @@
 </style>
 
 <form class="settings_form" data-bind="submit: save">
-	<h2 class="text-center"><i class="fa fa-cogs" aria-hidden="true"></i> 站点设置</h2>
+	<h2 class="text-center"><i class="fa fa-cogs" aria-hidden="true"></i> <?php echo trans('administrator::administrator.title_setting') ?></h2>
     <hr>
 
 	<!-- ko foreach: editFields -->
@@ -204,7 +204,7 @@
 
 		<!-- ko if: actions().length -->
             <hr>
-            <h2>其他操作</h2>
+            <h2><?php echo trans('administrator::administrator.other_setting') ?></h2>
 			<!-- ko foreach: actions -->
 				<!-- ko if: has_permission -->
 					<input type="button" class="btn btn-w-m btn-info" data-bind="click: function(){$root.customAction(action_name, messages, confirmation)}, value: title,
